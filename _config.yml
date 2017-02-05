@@ -1,0 +1,21 @@
+# Site settings
+title: Mid-life Catharsis
+header-img: img/home-bg.png
+email: carolineharrah@gmail.com
+copyright_name: carolineharrah
+description: > # this means to ignore newlines until "baseurl:"
+  My Journey to Becoming a Software Developer at 49
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: CarolineHarrah1
+github_username:  carolineharrah
+learn_profile: carolineharrah
+email_username: carolineharrah@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
